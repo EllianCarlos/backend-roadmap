@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"2d840b58b54062b6","x":-640,"y":-1340,"width":250,"height":60,"type":"text","text":"Internet"},
+		{"id":"24f5f4d3afe29199","x":-300,"y":-1340,"width":250,"height":60,"type":"text","text":"Domain Names"},
+		{"id":"74b17165f91ec1bf","x":-300,"y":-1420,"width":250,"height":60,"type":"text","text":"DNS"},
+		{"id":"4212dd66edae2e12","x":-300,"y":-1260,"width":250,"height":60,"type":"text","text":"Hosting"},
+		{"type":"text","text":"Internet Protocols","id":"e21711a97d51bb39","x":-980,"y":-1420,"width":250,"height":60},
+		{"type":"text","text":"HTTP","id":"29a7b842ff3ce845","x":-980,"y":-1340,"width":250,"height":60},
+		{"type":"text","text":"Browsers","id":"915fbcb091350b2a","x":-980,"y":-1260,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"62d68d58cf29e89a","fromNode":"2d840b58b54062b6","fromSide":"left","toNode":"e21711a97d51bb39","toSide":"right"},
+		{"id":"6a8d08147accf0bc","fromNode":"2d840b58b54062b6","fromSide":"left","toNode":"29a7b842ff3ce845","toSide":"right"},
+		{"id":"0f421414b315860f","fromNode":"2d840b58b54062b6","fromSide":"left","toNode":"915fbcb091350b2a","toSide":"right"},
+		{"id":"da60eac5ea14198a","fromNode":"2d840b58b54062b6","fromSide":"right","toNode":"74b17165f91ec1bf","toSide":"left"},
+		{"id":"b78a34dfd32e3586","fromNode":"2d840b58b54062b6","fromSide":"right","toNode":"24f5f4d3afe29199","toSide":"left"},
+		{"id":"4699fb3655ea0120","fromNode":"2d840b58b54062b6","fromSide":"right","toNode":"4212dd66edae2e12","toSide":"left"}
+	]
+}
